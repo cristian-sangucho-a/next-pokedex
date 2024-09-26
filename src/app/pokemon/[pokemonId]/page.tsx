@@ -11,7 +11,7 @@ type Params = {
 export default function PokemonPage({params}: RouteParams) {
     console.log(params.pokemonId)
     return (
-        <div className="flex flex-col justify-center h-screen">
+        <div className="container flex flex-col justify-center h-screen">
             <SinglePokemon pokemonId={params.pokemonId}/>
         </div>
     )

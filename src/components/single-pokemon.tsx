@@ -53,7 +53,9 @@ export function SinglePokemon({pokemonId}: SinglePokemonProps) {
                 <p>Pokemon ID: {pokemonId}</p>
                 <p>Weight: {pokemon.weight}</p>
                 <p>Height: {pokemon.height}</p>
+                <div className="card-actions justify-end"></div>
             </div>
+            
         </div>
     )
 
